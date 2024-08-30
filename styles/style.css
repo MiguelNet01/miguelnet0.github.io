@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+:root{
+    --color-primaria: #1B2430;
+    --color-secundaria: #51557E;
+    --color-terciaria: #816797;
+    --color-hover: #D6D5A8;
+    --color-links: #03001C;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--color-primaria);
+    color: var(--color-secundaria);
+    box-sizing: border-box;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__conteudo{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.cabecalho__conteudo__links{
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+}
+.cabecalho__conteudo__links:hover{
+    color: var(--color-hover);
+}
+.texto-destaque{
+    color: var(--color-terciaria);
+}
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 39px;
+    font-family: "Questrial", sans-serif;
+}
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    align-items:center;
+}
+.apresentacao__subtitulo{
+    font-size: 24px;
+    font-family: "Questrial", sans-serif;
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    border: 2px solid var(--color-secundaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--color-links);
+    font-family: "Questrial", sans-serif;
+}
+.apresentacao__links__link:hover{
+    color: var(--color-hover);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid var(--color-terciaria);
+}
+.rodape{
+    color: var(--color-links);
+    background-color: var(--color-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
